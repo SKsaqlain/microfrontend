@@ -1,0 +1,25 @@
+{
+    "folders": [
+        { "name": "🔵 host", "path": "host" },
+        { "name": "🟢 mfe1", "path": "mfe1" },
+        { "name": "🟠 mfe2", "path": "mfe2" }
+    ],
+
+    "settings": {
+        "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#000204",
+            "titleBar.activeForeground": "#ffffff",
+            "activityBar.background": "#000204",
+            "statusBar.background": "#000204"
+        },
+
+        "workbench.editor.labelFormat": "medium",
+
+        "workbench.editor.customLabels.enabled": true,
+        "workbench.editor.customLabels.patterns": {
+            "**/microfrontend/host/**": "🔵 ${filename}.${extname}",
+            "**/microfrontend/mfe1/**": "🟢 ${filename}.${extname}",
+            "**/microfrontend/mfe2/**": "🟠 ${filename}.${extname}"
+        }
+    }
+}
